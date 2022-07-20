@@ -25,7 +25,7 @@ li{
     font-family: 'Helvetica';
     text-transform: capitalize;
     border: none;
-    background: #DD0000;
+    background: #DD0077;
     color: #fff;
     font-weight: 500;
     border-radius: 10px;
@@ -40,7 +40,7 @@ li{
 
 .hero_area
 {   width: 100%;
-    background: #161616;
+    background: linear-gradient(180deg, #00398F 0%, #510049 100%);
     color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -109,7 +109,6 @@ li{
     font-family: 'Helvetica';
     text-transform: capitalize;
     border: none;
-    background: #DD0000;
     color: #fff;
     font-weight: 500;
     border-radius: 10px;
@@ -127,7 +126,6 @@ i.fa-solid.fa-angle-right {
 .hero_area
 {
     width: 100%;
-    background: #161616;
     color: #fff;
     display: grid;
     grid-template-columns: 1fr;
@@ -160,13 +158,15 @@ i.fa-solid.fa-angle-right {
 {
     font-size: 14px;
     font-weight: 400;
-    width: 239px;
-    height: 44px;
+    width: 230px;
+    max-height: 44px;
+    line-height: 1.8em;
     margin-bottom: 0px;
-    white-space: nowrap;
+    white-space: break-spaces;
     margin: auto;
     text-overflow: ellipsis;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .h_r_img
@@ -207,7 +207,6 @@ i.fa-solid.fa-angle-right {
     font-family: 'Helvetica';
     text-transform: capitalize;
     border: none;
-    background: #DD0000;
     color: #fff;
     font-weight: 500;
     border-radius: 10px;
@@ -293,7 +292,6 @@ i.fa-solid.fa-angle-right {
     font-family: 'Helvetica';
     text-transform: capitalize;
     border: none;
-    background: #DD0000;
     color: #fff;
     font-weight: 500;
     border-radius: 10px;
@@ -309,7 +307,6 @@ i.fa-solid.fa-angle-right {
 .hero_area
 {
     width: 100%;
-    background: #161616;
     color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -383,7 +380,6 @@ i.fa-solid.fa-angle-right {
     font-family: 'Helvetica';
     text-transform: capitalize;
     border: none;
-    background: #DD0000;
     color: #fff;
     font-weight: 500;
     border-radius: 10px;
@@ -397,8 +393,7 @@ i.fa-solid.fa-angle-right {
 }
 
 .hero_area
-{   width: 100%;
-    background: #161616;
+{   width: 100%;background: linear-gradient(180deg, #00398F 0%, #510049 100%);
     color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -469,7 +464,7 @@ i.fa-solid.fa-angle-right {
 
 .navbar{
     width: 100%;
-    background: #161616;
+    background: linear-gradient(180deg, #00398F 0%, #510049 100%);
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -508,8 +503,7 @@ text-decoration: none;}
 .navbar>ul>li.active>a{
     color: #fff;}
 .navbar>ul>li.active{
-    background: #DD0000;
-
+background: #DD0077;
 }
 .blogs{
     display: grid;
@@ -618,7 +612,7 @@ button.view_all{
     width: 252px;
 }
     .navbar>ul>li.active{
-        background: #DD0000;
+        background: #DD0077;
         color: #fff;
     
     }
@@ -675,7 +669,7 @@ button.view_all{
             font-size: 18px;
         }
         .navbar>ul>li.active{
-            background: #DD0000;
+            background: #DD0077;
             color: #fff;
         
         }
@@ -750,7 +744,7 @@ button.view_all{
             font-weight: 500;
         }
         .navbar>ul>li.active{
-            background: #DD0000;
+            background: #DD0077;
             color: #fff;
         
         }
@@ -795,7 +789,7 @@ button.view_all{
     width: 100%;
     height: 345px;
     text-align: center;
-    background: #161616;
+    background: linear-gradient(180deg, #000e24 0%, #0b0163 100%);
     color: #fff;
 
 }
@@ -810,6 +804,7 @@ hr{
 }
 .footer_nav{
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 align-content: center;
@@ -828,6 +823,16 @@ align-content: center;
     font-size: 16px;
     line-height: 24px;
     color: #B9B9B9;
+}
+.social{
+    height: 100px;
+    width: 200px;
+}
+
+.social>li>a>i {
+   
+color: #fff;
+font-size: 20px;
 }
 /*----------------- Footer Area FINISHED -----------------*/
 
