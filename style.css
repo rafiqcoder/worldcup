@@ -5,6 +5,8 @@
 }
 body{
     font-family: 'Poppins';
+    background: #00348f;
+    color: white;
 }
 li{
     list-style: none;
@@ -464,7 +466,7 @@ i.fa-solid.fa-angle-right {
 
 .navbar{
     width: 100%;
-    background: linear-gradient(180deg, #00398F 0%, #510049 100%);
+    background: linear-gradient(354deg, #00398F 0%, #510049 100%);
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -479,7 +481,7 @@ i.fa-solid.fa-angle-right {
     height: 252px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     align-items: center;
 }
@@ -539,11 +541,12 @@ background: #DD0077;
 .blog_btn{
     padding: 3px 15px;
     border-radius: 5px;
-    border: 1px solid rgb(99, 99, 99);
-    background: #fff;
+    border: #93008b;
+    background: #93008b;
     font-weight: 400;
+    color: #fff;
     font-size: 15px;
-    margin-bottom: 10px;  
+    margin-bottom: 10px;
 }
 .blog_desc{
     margin-bottom: 15px;
@@ -558,11 +561,12 @@ background: #DD0077;
 }
 .blog_footer>li>i{
     margin-right: 5px;
-    color: rgb(109, 109, 109);
+    color: #93008b;
 }
 
 .blog_card>img {
     width: 100%;
+    border-radius: 10px;
 }
 
 button.view_all{
@@ -588,10 +592,10 @@ button.view_all{
     .navbar{
         height: 252px;
         margin: auto;
-        background: #ffffff;
         display: flex;
         flex-direction: column;
-        height: 176px;
+        height: 200px;
+        padding-top: 20px;
     }
     .navbar>ul{
         width: 252px;
@@ -653,7 +657,7 @@ button.view_all{
         .navbar{
             width: 100%;
             margin: auto;
-            background: #ffffff;
+            background: #ffffff00;
             display: flex;
             flex-direction: column;
             height: 90px;
@@ -720,7 +724,7 @@ button.view_all{
         .navbar{
             width: 100%;
             margin: auto;
-            background: #ffffff;
+            background: #ffffff00;
             display: flex;
             flex-direction: column;
             height: 90px;
@@ -789,9 +793,8 @@ button.view_all{
     width: 100%;
     height: 345px;
     text-align: center;
-    background: linear-gradient(180deg, #000e24 0%, #0b0163 100%);
+    background: linear-gradient(356deg, #000e24 0%, #0b0163 100%);
     color: #fff;
-
 }
 .logo{
     font-size: 40px;
