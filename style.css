@@ -822,26 +822,10 @@ font-size: 20px;
     }
 }
 
-/*----------------- Footer Area FINISHED -----------------*/
+/*------------- Footer Area FINISHED -------------*/
 
 
-
-
-
-
-
-
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {} */
-
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    /* @media (min-width: 599px) and (max-width:767px){} */
-    
-    /* Medium devices (landscape tablets, 768px and up) */
-    /* @media (min-width: 768px) and (max-width: 1200px) {} */
-    
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    /* @media only screen and (min-width: 1200px) {} */
+/*-------------- animation  START ------------*/
 
 button.btn.h_btn::before {
     content:'';
@@ -907,4 +891,5 @@ button:hover.btn.h_btn::before {
     to{left:250px;}
 }
 
+/*-------------- animation FINISHED ------------*/
 
