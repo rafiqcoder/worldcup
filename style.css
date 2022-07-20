@@ -11,7 +11,6 @@ li{
 }
 #main{
     width: 100%;
-
 }
 .container{
     margin: 50px auto;
@@ -247,12 +246,13 @@ i.fa-solid.fa-angle-right {
 {
     font-size: 14px;
     font-weight: 400;
-    width: 225px;
-    height: 48px;
-    margin-bottom: 0px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    width: 235px;
+    line-height: 1.8em;
     overflow: hidden;
+    max-height: 48px;
+    margin-bottom:15px;
+    white-space: break-word;
+
 }
 
 .h_r_img
@@ -340,11 +340,13 @@ i.fa-solid.fa-angle-right {
 {
     font-size: 14px;
     font-weight: 400;
-    width: 300px;
-    height: 48px;
-    margin-bottom: 0px;
+    width: 240px;
+    max-height: 48px;
+    margin-bottom: 15px;
+    line-height: 1.8em;
     white-space: nowrap;
     text-overflow: ellipsis;
+    white-space: break-spaces;
     overflow: hidden;
 }
 
@@ -486,36 +488,60 @@ i.fa-solid.fa-angle-right {
     align-content: center;
     align-items: center;
 }
+.navbar>ul>li>a{
+    color: #000;
+text-decoration: none;}
 .navbar>ul>li{
     width: 100%;
     height: 64px;
     text-align: center;
     background: #fff;
-    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
 
 }
+.navbar>ul>li.active>a{
+    color: #fff;}
 .navbar>ul>li.active{
     background: #DD0000;
-    color: #fff;
 
 }
 .blogs{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
 }
 .blog_card{
     border: 1px solid rgba(204, 204, 204, 0.486);
     border-radius: 10px;
 }
+.up_card{
+    height: 240px;
+    
+}
 .blog_info{
     padding: 20px;
 }
+.up_info{
+    text-align: center;
+}
+.contries{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contry_names{
+    
+    margin-bottom: 10px;
+}
+
 .blog_btn{
     padding: 3px 15px;
     border-radius: 5px;
@@ -545,7 +571,11 @@ i.fa-solid.fa-angle-right {
     width: 100%;
 }
 
-
+button.view_all{
+    display: none;
+    margin: auto;
+}
+/*-------------- Blog area Responsive START--------------*/ 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -666,8 +696,19 @@ i.fa-solid.fa-angle-right {
             margin-right: 5px;
             color: rgb(109, 109, 109);
         }
+        button.view_all{
+            display: block;
+            margin: auto;
+        }
     }
     
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 992px) {
+        button.view_all{
+            display: block;
+            margin: auto;
+        }
+    }
     /* Medium devices (landscape tablets, 768px and up) */
     @media (min-width: 768px) and (max-width: 1200px) {
         .container {
@@ -730,6 +771,8 @@ i.fa-solid.fa-angle-right {
             margin-right: 5px;
             color: rgb(109, 109, 109);
         }
+        
+        
     }
 
 
@@ -737,11 +780,56 @@ i.fa-solid.fa-angle-right {
     
   
 
+/*----------------- Blog area Responsived -----------------*/
+
 /*----------------- Blog area FINISHED -----------------*/
 
 
 
+/*------------------ Footer Area  START -----------------*/
+.container.f_content{
+    margin: 0 ;
+    padding: 70px 50px;
+}
+.f_content{
+    width: 100%;
+    height: 345px;
+    text-align: center;
+    background: #161616;
+    color: #fff;
 
+}
+.logo{
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+hr{
+    border: 1px solid rgb(46, 46, 46);
+    margin-bottom: 30px;
+}
+.footer_nav{
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+.footer_nav>ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.footer_nav>ul>li{
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+}
+/*----------------- Footer Area FINISHED -----------------*/
 
 
 
@@ -750,7 +838,7 @@ i.fa-solid.fa-angle-right {
 
 
 footer{
-    display: none;
+    /* display: none; */
 }
 
 /* Extra small devices (phones, 600px and down) */
