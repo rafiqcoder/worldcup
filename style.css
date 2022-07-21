@@ -532,7 +532,6 @@ img.france {
     }
     .blog_footer>li>i{
         margin-right: 5px;
-        color: rgb(109, 109, 109);
     }
 }
 
@@ -577,6 +576,7 @@ img.france {
             justify-content: center;
             gap: 20px;
             justify-items: center;
+            grid-template-columns: 1fr 1fr;
         }
 
         .blog_footer{
@@ -588,7 +588,6 @@ img.france {
         }
         .blog_footer>li>i{
             margin-right: 5px;
-            color: rgb(109, 109, 109);
         }
         button.view_all{
             display: block;
@@ -657,6 +656,7 @@ img.france {
             justify-content: center;
             gap: 20px;
             justify-items: center;
+            grid-template-columns: 1fr 1fr;
         }
  
         .blog_footer{
@@ -668,7 +668,6 @@ img.france {
         }
         .blog_footer>li>i{
             margin-right: 5px;
-            color: rgb(109, 109, 109);
         }
         
         img.germany {
